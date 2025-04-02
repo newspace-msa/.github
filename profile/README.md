@@ -6,7 +6,7 @@ LG CNS AM Inspire Camp 1기
 
 미니프로젝트 2 - 9조
 
-현민영(팀장) / 구동혁 / 김지수 / 박상욱 / 유영서
+구동혁 / 김지수 / 박상욱 / 유영서 / 현민영(팀장) 
 
 ---
 
@@ -23,10 +23,9 @@ CI/CD는 GitHub → Jenkins → Docker Compose 기반으로 자동화되어 있�
 API 요청은 CloudFront를 통한 **리버스 프록시 방식**으로 처리되어, 
 쿠키 기반 인증도 안정적으로 동작합니다.
 
-백엔드는 Eureka 기반의 Service Discovery와 Spring Cloud Gateway를 통해 유기적으로 연결되며,
-
-각 마이크로서비스는 **Blue-Green 배포 전략**을 적용해 무중단 배포를 지원합니다. 
-데이터는 AWS RDS(MariaDB)에 저장되며, 
+백엔드는 Eureka 기반의 Service Discovery와 Spring Cloud Gateway를 통해 유기적으로 연결되며,  
+각 마이크로서비스는 **Blue-Green 배포 전략**을 적용해 무중단 배포를 지원합니다.   
+데이터는 AWS RDS(MariaDB)에 저장되며,  
 뉴스 서비스는 **Spring AI**를 통해 Groq 기반의 Deepseek LLM과 연동되어 뉴스 요약 기능을 제공합니다.
 
 또한 Prometheus와 Grafana를 통해 **서비스 상태를 실시간으로 모니터링**할 수 있도록 구성되어 있습니다.
