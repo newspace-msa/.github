@@ -129,6 +129,8 @@ API 요청은 CloudFront를 통한 **리버스 프록시 방식**으로 처리�
 ## 📽️ CI/CD 배포 시연 영상
 [Jenkins AWS EC2 블루 그린 무중단 배포 유튜브 링크](https://youtu.be/nRx-jOo8CAo?si=7Z5pfg4jXD5fLKP3)
 <br>
+[Jenkins 프론트엔드 CI/CD 파이프라인 시연 영상 유튜브 링크](https://youtu.be/eHqqQJe2igI?si=ICVVzMIt1_MNfs-b)
+<br>
 [Jenkins 백엔드 CI/CD 파이프라인 시연 영상 유튜브 링크](https://youtu.be/-oRP9SXSFeI?si=E5c8gun3oIVVAMAN)
 
 <br/>
