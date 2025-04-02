@@ -28,11 +28,11 @@ LG CNS AM Inspire Camp 1기
             <br/>
             <img src="https://github-readme-stats.vercel.app/api?username=dhku&show_icons=true&theme=transparent" alt="dhku's GitHub stats" width="300px"/>
             <br/>
-            CI/CD docker-compose, 
+            백엔드 Jenkins 파이프라인 구성 및 CI/CD, 
             <br>
-            무중단 배포,
+            도메인 서비스별 블루-그린 무중단 배포,
             <br>
-            CI/CD 자동화 구축 및 개선 
+            docker-compose, AWS ECR 배포 연동 
         </td>
         <!-- 세 번째 팀원 -->
         <td align="center" width="20%">
