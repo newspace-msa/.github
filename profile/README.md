@@ -1,6 +1,5 @@
 # 🧱☁️ Newspace MSA & Cloud Deployment Project
 
-## 📌 프로젝트 개요
 25.03.27 ~ 25.04.02
 
 LG CNS AM Inspire Camp 1기
@@ -10,6 +9,10 @@ LG CNS AM Inspire Camp 1기
 현민영(팀장) / 구동혁 / 김지수 / 박상욱 / 유영서
 
 ---
+
+<br/>
+
+## 📌 프로젝트 개요
 
 **Newspace**는 확장성과 유연성을 중심으로 설계된 **모듈형 뉴스 플랫폼**입니다.  
 Spring Cloud 기반의 마이크로서비스 아키텍처(MSA)와 React 프론트엔드를 사용하여,  
