@@ -6,7 +6,74 @@ LG CNS AM Inspire Camp 1기
 
 미니프로젝트 2 - 9조
 
-구동혁 / 김지수 / 박상욱 / 유영서 / 현민영(팀장) 
+<table>
+    <tr>
+        <!-- 첫 번째 팀원 -->
+        <td align="center" width="20%">
+            <img src="https://avatars.githubusercontent.com/u/151743721?v=4" alt="Avatar" width="100px"/><br/>
+            <a href="https://github.com/95hyun">현민영(팀장)</a>
+            <br/>
+            <img src="https://github-readme-stats.vercel.app/api?username=95hyun&show_icons=true&theme=transparent" alt="95hyun's GitHub stats" width="300px"/>
+            <br/>
+            Monolithic -> MSA 리팩토링
+            <br>
+            Prometheus, Grafana 구현
+            <br>
+            Grafana Alert Discord Webhook
+        </td>
+        <!-- 두 번째 팀원 -->
+        <td align="center" width="20%">
+            <img src="https://avatars.githubusercontent.com/u/39462045?v=4" alt="Avatar" width="100px"/><br/>
+            <a href="https://github.com/dhku">구동혁</a>
+            <br/>
+            <img src="https://github-readme-stats.vercel.app/api?username=dhku&show_icons=true&theme=transparent" alt="dhku's GitHub stats" width="300px"/>
+            <br/>
+            CI/CD docker-compose, 
+            <br>
+            무중단 배포,
+            <br>
+            CI/CD 자동화 구축 및 개선 
+        </td>
+        <!-- 세 번째 팀원 -->
+        <td align="center" width="20%">
+            <img src="https://avatars.githubusercontent.com/u/84431156?v=4" alt="Avatar" width="100px"/><br/>
+            <a href="https://github.com/js4939">김지수</a>
+            <br/>
+            <img src="https://github-readme-stats.vercel.app/api?username=js4939&show_icons=true&theme=transparent" alt="js4939's GitHub stats" width="300px"/>
+            <br/>
+            프론트엔드 Jenkins 파이프라인 구성 및 CI/CD, 
+            <br>
+            요구사항 명세서 작성, 
+            <br>
+            프론트엔드 & 백엔드 연동
+        </td>
+        <!-- 네 번째 팀원 -->
+        <td align="center" width="20%">
+            <img src="https://avatars.githubusercontent.com/u/140885810?v=4" alt="Avatar" width="100px"/><br/>
+            <a href="https://github.com/woogieon8on">박상욱</a>
+            <br/>
+            <img src="https://github-readme-stats.vercel.app/api?username=woogieon8on&show_icons=true&theme=transparent" alt="woogieon8on's GitHub stats" width="300px"/>
+            <br/>
+            Config 서버 + RabbitMQ, 
+            <br>
+            docker 일부 AWS 전환 + EC2 + RDS
+        </td>
+        <!-- 다섯 번째 팀원 -->
+        <td align="center" width="20%">
+            <img src="https://avatars.githubusercontent.com/u/95837534?v=4" alt="Avatar" width="100px"/><br/>
+            <a href="https://github.com/Y0ungse">유영서</a>
+            <br/>
+            <img src="https://github-readme-stats.vercel.app/api?username=Y0ungse&show_icons=true&theme=transparent" alt="Y0ungse's GitHub stats" width="300px"/>
+            <br/>
+            프론트엔드 배포, 
+            <br>
+            서비스 아키텍처 다이어그램 작성, 
+            <br>
+            PPT
+        </td>
+    </tr>
+</table>
+<br/>
 
 ---
 
