@@ -30,7 +30,7 @@ LG CNS AM Inspire Camp 1기
             <br/>
             백엔드 Jenkins 파이프라인 구성 및 CI/CD, 
             <br>
-            도메인 서비스별 블루-그린 무중단 배포,
+            블루-그린 무중단 배포,
             <br>
             docker-compose, AWS ECR 배포 연동 
         </td>
