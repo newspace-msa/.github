@@ -217,4 +217,4 @@ API 요청은 CloudFront를 통한 **리버스 프록시 방식**으로 처리�
 <br/>
 
 ## 📚 Notion
-https://www.notion.so/LG-CNS-2-9-1c35254cd71680b490c6f7d3a8a0b2e6
+[https://www.notion.so/LG-CNS-2-9-1c35254cd71680b490c6f7d3a8a0b2e6](https://charm-manicure-495.notion.site/LG-CNS-2-9-1c35254cd71680b490c6f7d3a8a0b2e6?pvs=74)
