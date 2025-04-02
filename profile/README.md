@@ -147,7 +147,31 @@ API 요청은 CloudFront를 통한 **리버스 프록시 방식**으로 처리�
 <br/>
 
 ## 🏗️ 시스템 아키텍처
+기존 모놀리식 시스템 아키텍처
+![image](https://github.com/user-attachments/assets/850fcf4e-b7bf-4192-a89a-241903c7bf12)
+단일 홈서버(ubuntu 172.21.1.22)에서 모든 서비스 동작
+프론트/백 DB가 단일 Docker 환경에 혼합되어있음
+포트 포워딩을 통한 접근, 보안/확장성에 한계
+MariaDB 하나에 모든 서비스가 의존
+Jenkins도 동일 서버 내 위치
+로드밸런싱 및 무중단 배포 미지원
+
+MSA 구성도
+![image](https://github.com/user-attachments/assets/dbb947d2-d780-4c46-b00c-de59fcf998cc)
+마이크로서비스 기반 설계 (user-service, news-service, notice-service)
+서비스 별 Docker 컨테이너 이중화 (Blue/Green) -> 무중단 배포
+서비스 간 통신 : API Gateway + Eureka 기반 동적 라우팅
+프론트엔드 : React 정적 파일 -> S3 + CloudFront 배포로 완전 분리
+설정 관리 : Spring Cloud Config + RabbitMQ 브로드캐스트
+데이터베이스 : 서비스별 독립 RDS 인스턴스 구성
+모니터링 : Prometheus + Grafana로 실시간 상태체크
+Jenkins + Docker + ECR + EC2 기반 CI/CD 파이프라인 구축
+
+최종 구성도
 ![image](https://github.com/user-attachments/assets/bba4aae7-b01a-46dc-8aee-096fa4736107)
+서버비, 트러블 슈팅 등 문제로 EC2 인스턴스, RDS 축소 및 통합
+EC2 기존 대비 비용 약 50% 감소, RDS 기존 대비 비용 약 66% 감소
+오토 스케일링(스케일아웃)을 대비한 0번 포트 서비스들간의 오케스트레이션 부재 문제 해결
 
 <br/>
 
